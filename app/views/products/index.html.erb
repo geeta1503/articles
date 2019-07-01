@@ -1,0 +1,21 @@
+<h1>index page of product</h1>
+<table>
+	<tr>
+		<td>product_name</td>
+		<td>description</td>
+		<td>start_date</td>
+		<td>end_date</td>
+		<td>quantity</td>
+	</tr>
+	<% @index_v.each do |product| %>
+	<tr>
+		<td><%= product.product_name %></td>
+		<td><%= product.description%></td>
+		<td><%= product.start_date %></td>
+		<td><%= product.end_date %></td>
+		<td><%= product.quantity %></td>
+		<td><%= link_to  'show' ,product_path(product) %></td>
+		<td><%= link_to 'edit' ,edit_product_path(product)%></td>
+	</tr>
+	<% end %>
+</table>

@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  product_name: MyString
+  description: MyString
+  start_date: 2019-06-29 15:58:01
+  end_date: 2019-06-29 15:58:01
+  quantity: 1
+
+two:
+  product_name: MyString
+  description: MyString
+  start_date: 2019-06-29 15:58:01
+  end_date: 2019-06-29 15:58:01
+  quantity: 1
