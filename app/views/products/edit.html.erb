@@ -1,2 +1,50 @@
-<%= render 'form' %>
+<%#= render 'form' %>
+<%= form_for :products, url: product_path(@edit_v),method: :patch do |form| %>
+
+<% if @edit_v.errors.any? %>
+    <div id="error_explanation">
+      <h2>
+        <%= pluralize(@edit_v.errors.count, "error") %> prohibited
+        this article from being saved:
+      </h2>
+      <ul>
+        <% @edit_v.errors.full_messages.each do |msg| %>
+          <li><%= msg %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+<table>
+	<tr>
+		<td><%= form.label :product_name %></td>
+		<td><%= form.text_field :product_name %></td>
+	</tr>
+	<tr>
+		<td><%= form.label :description %></td>
+		<td><%= form.text_field :description %></td>
+
+		<td><%#=  @edit_v.description%></td>
+	</tr>
+	<tr>
+		<td><%= form.label :start_date %></td>
+		<td><%= form.date_field :start_date %></td>
+		<td><%#=  @edit_v.start_date%></td>
+	</tr>
+	<tr>
+		<td><%= form.label :end_date %></td>
+		<td><%= form.date_field :end_date %></td>
+		<td><%#=  @edit_v.end_date %></td>
+	</tr>
+	<tr>
+		<td><%= form.label :quantity %></td>
+		<td><%= form.number_field :quantity %></td>
+		<td><%#=  @edit_v.quantity %></td>
+	</tr>
+	
+	<tr>
+		<td><%= form.submit%></td>
+	</tr>
+</table>
+<%end %>
 <%= link_to 'back' ,products_path%>

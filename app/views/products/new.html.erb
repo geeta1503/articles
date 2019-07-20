@@ -1,5 +1,21 @@
-<h1>product from</h1>
+<%#= render 'form' %>
 <%= form_with scope: :products ,url: products_path, local: true do|form| %>
+
+<% if @create_v.errors.any? %>
+    <div id="error_explanation">
+      <h2>
+        <%= pluralize(@create_v.errors.count, "error") %> prohibited
+        this article from being saved:
+      </h2>
+      <ul>
+        <% @create_v.errors.full_messages.each do |msg| %>
+          <li><%= msg %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+ 
+
 <table>
 	<tr>
 		<td><%= form.label :product_name %></td>
@@ -7,22 +23,32 @@
 	</tr>
 	<tr>
 		<td><%= form.label :description %></td>
-		<td><%= form.text_field :description%></td>
+		<td><%= form.text_field :description %></td>
 	</tr>
 	<tr>
 		<td><%= form.label :start_date %></td>
-		<td><%= form.text_field :start_date%></td>
+		<td><%= form.date_field  :start_date %></td>
 	</tr>
 	<tr>
 		<td><%= form.label :end_date %></td>
-		<td><%= form.text_field :end_date %></td>
+		<td><%= form.date_field  :end_date %></td>
 	</tr>
 	<tr>
 		<td><%= form.label :quantity %></td>
-		<td><%= form.text_field :quantity %></td>
+		<td><%= form.number_field :quantity %></td>
 	</tr>
 	<tr>
-		<td><%= form.submit%></td>
+		<td><%= form.label :category %></td>
+		 <%#= f.label :provider %><br>
+   		
+		<td><%= select_tag(:category, options_for_select([["geeta",12],["Option 1",1],["Option 2",2],["Option 3",3]], params[:category] ), class:"select") %></td>
 	</tr>
+	
+	<tr>
+		<td><%= form.submit %></td>
+	</tr>
+	
 </table>
-<% end %>
+<%end %>
+
+<%= link_to 'back' , products_path %>

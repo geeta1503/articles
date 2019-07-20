@@ -32,12 +32,12 @@ def update
   end
 end
 
-#def destroy
-  #@article = Article.find(params[:my_id])
-  #@article.destroy
+def geeta
+  @article = Article.find(params[:my_id])
+  @article.destroy
  
-  #redirect_to articles_path
-#end
+  redirect_to articles_path
+end
 
  def index
     @articles = Article.all

@@ -6,6 +6,7 @@
 		<td>start_date</td>
 		<td>end_date</td>
 		<td>quantity</td>
+		<td>category</td>
 	</tr>
 	<% @index_v.each do |product| %>
 	<tr>
@@ -14,8 +15,13 @@
 		<td><%= product.start_date %></td>
 		<td><%= product.end_date %></td>
 		<td><%= product.quantity %></td>
+		<td><%= product.category %></td>
 		<td><%= link_to  'show' ,product_path(product) %></td>
 		<td><%= link_to 'edit' ,edit_product_path(product)%></td>
+		<td><%= link_to 'delete' ,geeta_destroy_path(product),
+
+			data:{confirm: 'are you sure '} %></td>
 	</tr>
 	<% end %>
+	<%= link_to 'new' , new_product_path %>
 </table>
