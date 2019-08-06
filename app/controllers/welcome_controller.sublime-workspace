@@ -4,6 +4,90 @@
 		"selected_items":
 		[
 			[
+				"cart",
+				"cartt_items"
+			],
+			[
+				"car",
+				"cartt_items"
+			],
+			[
+				"cu",
+				"current_user"
+			],
+			[
+				"deli",
+				"delivery"
+			],
+			[
+				"co",
+				"collection"
+			],
+			[
+				"sel",
+				"self"
+			],
+			[
+				"addres",
+				"address_params"
+			],
+			[
+				"address",
+				"addresses"
+			],
+			[
+				"in",
+				"increment"
+			],
+			[
+				"pr",
+				"pry"
+			],
+			[
+				"re",
+				"redirect_to"
+			],
+			[
+				"get",
+				"getAttribute"
+			],
+			[
+				"Cart",
+				"CarttItem"
+			],
+			[
+				"cart_",
+				"cart_item"
+			],
+			[
+				"Car",
+				"CarttItem"
+			],
+			[
+				"if",
+				"ife\tif … else … end"
+			],
+			[
+				"li",
+				"link_to"
+			],
+			[
+				"end",
+				"end_date"
+			],
+			[
+				"mi",
+				"minimun_quantity"
+			],
+			[
+				"sub",
+				"submit"
+			],
+			[
+				"so",
+				"sort_order"
+			],
+			[
 				"name",
 				"image_name"
 			],
@@ -48,10 +132,6 @@
 				"create_params"
 			],
 			[
-				"co",
-				"country_name"
-			],
-			[
 				"blogger",
 				"blogger_id"
 			],
@@ -62,10 +142,6 @@
 			[
 				"st",
 				"strong\tTag"
-			],
-			[
-				"pr",
-				"products_path"
 			],
 			[
 				"destr",
@@ -100,68 +176,39 @@
 	"buffers":
 	[
 		{
-			"file": "/C/Sites/project1/app/controllers/images_controller.rb",
+			"file": "/C/Sites/movie_booking/Gemfile",
 			"settings":
 			{
-				"buffer_size": 674,
+				"buffer_size": 2206,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/C/Sites/project1/app/views/devise/registrations/new.html.erb",
+			"file": "/C/Sites/movie_booking/config/database.yml",
 			"settings":
 			{
-				"buffer_size": 1838,
+				"buffer_size": 360,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/C/Sites/project1/app/views/user_roles/new.html.erb",
+			"file": "/C/Sites/movie_booking/app/controllers/application_controller.rb",
 			"settings":
 			{
-				"buffer_size": 197,
-				"line_ending": "Windows"
+				"buffer_size": 60,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/C/Sites/project1/app/views/images/new.html.erb",
+			"file": "/C/Sites/movie_booking/config/boot.rb",
 			"settings":
 			{
-				"buffer_size": 385,
+				"buffer_size": 208,
 				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Sites/project1/app/views/images/edit.html.erb",
-			"settings":
-			{
-				"buffer_size": 390,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "<table>\n\t<tr>\n\t\t<td>images</td>\n\t</tr>\n<% @index_v.each do |i| %>\n\t<tr>\n\t\t<td><%= i.user_id %></td>\n\t\t<td><%= i.real_name %></td>\n\t\t<td><%= i.image_name %></td>\n\n\t\t<td><%= link_to 'show' , image_path(i)%></td>\n\t\t<td><%= link_to 'delete' , image_delete_path(i) ,\n\t\t\t\tdata:{confirm: 'are you sure '} %></td>\n\n\t\t<td><%= link_to 'edit',edit_image_path(i)%></td>\n\t</tr>\n\n<% end%>\n\n</table>_\n\n<%= link_to ' add new country',new_image_path %>\n\n",
-			"file": "/C/Sites/project1/app/views/images/index.html.erb",
-			"file_size": 505,
-			"file_write_time": 132080209240654685,
-			"settings":
-			{
-				"buffer_size": 437,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Sites/project1/app/views/images/show.html.erb",
-			"settings":
-			{
-				"buffer_size": 300,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -181,7 +228,7 @@
 	},
 	"console":
 	{
-		"height": 157.0,
+		"height": 190.0,
 		"history":
 		[
 		]
@@ -197,23 +244,98 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Sites/project1",
-		"/C/Sites/project1/app",
-		"/C/Sites/project1/app/views",
-		"/C/Sites/project1/app/views/devise",
-		"/C/Sites/project1/app/views/devise/registrations",
-		"/C/Sites/project1/app/views/user_roles",
-		"/C/Sites/project1/db",
-		"/C/Sites/project1/db/migrate"
+		"/C/Sites/movie_booking",
+		"/C/Sites/movie_booking/app",
+		"/C/Sites/movie_booking/app/views"
 	],
 	"file_history":
 	[
-		"/C/Sites/project1/app/views/images/index.html.erb",
-		"/C/Sites/project1/app/controllers/images_controller.rb",
-		"/C/Sites/project1/config/routes.rb",
-		"/C/Sites/project1/app/views/images/new.html.erb",
-		"/C/Sites/project1/app/views/images/edit.html.erb",
+		"/C/Sites/booking_movie_show/Gemfile",
+		"/C/Sites/booking_movie_show/config/database.yml",
+		"/C/Sites/movie_booking/Gemfile",
+		"/C/Sites/movie_booking/Gemfile.lock",
+		"/C/Sites/movie_booking/config/database.yml",
+		"/C/Sites/admin-rk/app/controllers/miscellaneous_controller.rb",
+		"/C/Sites/admin-rk/app/models/user.rb",
+		"/C/Sites/admin-rk/config/routes.rb",
+		"/C/Sites/admin-rk/app/models/cartt_item.rb",
+		"/C/Sites/admin-rk/app/controllers/orders_controller.rb",
+		"/C/Sites/admin-rk/app/views/orders/order_item.html.erb",
+		"/C/Sites/admin-rk/app/views/cartts/cart_item.html.erb",
+		"/C/Sites/admin-rk/app/controllers/checkouts_controller.rb",
+		"/C/Sites/admin-rk/app/controllers/cartts_controller.rb",
+		"/C/Sites/admin-rk/app/views/checkouts/current_order.html.erb",
+		"/C/Sites/admin-rk/app/views/checkouts/make_payment.html.erb",
+		"/C/Sites/admin-rk/app/views/addresses/_form.html.erb",
+		"/C/Sites/admin-rk/app/views/checkouts/review_order.html.erb",
+		"/C/Sites/admin-rk/db/migrate/20190802092149_add_column_user_to_cart_item.rb",
+		"/C/Sites/admin-rk/app/models/address.rb",
+		"/C/Sites/admin-rk/db/schema.rb",
+		"/C/Sites/admin-rk/app/models/order_item.rb",
+		"/C/Sites/admin-rk/app/models/order.rb",
+		"/C/Sites/admin-rk/app/controllers/addresses_controller.rb",
+		"/C/Sites/admin-rk/app/views/review_orders/show_order.html.erb",
+		"/C/Sites/admin-rk/app/controllers/review_orders_controller.rb",
+		"/C/Sites/admin-rk/app/views/review_orders/index.html.erb",
+		"/C/Sites/admin-rk/app/models/review_order.rb",
+		"/C/Sites/admin-rk/app/views/addresses/show.html.erb",
+		"/C/Sites/admin-rk/app/views/addresses/index.html.erb",
+		"/C/Sites/admin-rk/app/views/addresses/new.html.erb",
+		"/C/Sites/admin-rk/app/views/cartts/increase_decrease_quantity.js.erb",
+		"/C/Sites/admin-rk/app/views/commerce/cart.html.erb",
+		"/C/Sites/admin-rk/app/views/layouts/_topnavbar.html.erb",
+		"/C/Sites/admin-rk/app/views/layouts/application.html.erb",
+		"/C/Sites/admin-rk/app/views/data/show.html.erb",
+		"/C/Sites/admin-rk/app/views/cartts/add_to_cart_item.html.erb",
+		"/C/Sites/admin-rk/app/models/cartt.rb",
+		"/C/Sites/admin-rk/app/controllers/pages_controller.rb",
+		"/C/Sites/admin-rk/app/views/products/show.html.erb",
+		"/C/Sites/admin-rk/Gemfile",
+		"/C/Sites/admin-rk/app/views/commerce/new.html.erb",
+		"/C/Sites/admin-rk/app/views/carts/_form.html.erb",
+		"/C/Sites/admin-rk/app/controllers/carts_controller.rb",
+		"/C/Sites/admin-rk/app/views/products/index.html.erb",
+		"/C/Sites/admin-rk/app/views/images/index.html.erb",
+		"/C/Sites/admin-rk/app/views/discounts/show.html.erb",
+		"/C/Sites/admin-rk/app/views/discounts/index.html.erb",
+		"/C/Sites/admin-rk/app/views/data/index.html.erb",
+		"/C/Sites/admin-rk/app/controllers/products_controller.rb",
+		"/C/Sites/admin-rk/app/views/products/_form.html.erb",
+		"/C/Sites/admin-rk/app/views/images/show.html.erb",
+		"/C/Sites/admin-rk/app/views/layouts/_topnavbar_2.html.erb",
+		"/C/Sites/admin-rk/app/views/layouts/_skinconfig.html.erb",
+		"/C/Sites/admin-rk/app/views/layouts/_navigationoffcanvas.html.erb",
+		"/C/Sites/admin-rk/config/environments/development.rb",
+		"/C/Sites/admin-rk/config/database.yml",
+		"/C/Sites/admin-rk/config/initializers/devise.rb",
+		"/C/Sites/admin-rk/app/controllers/images_controller.rb",
+		"/C/Sites/admin-rk/app/views/images/_form.html.erb",
+		"/C/Sites/admin-rk/app/models/image.rb",
+		"/C/Sites/admin-rk/app/views/discounts/_form.html.erb",
+		"/C/Sites/admin-rk/app/controllers/data_controller.rb",
+		"/C/Sites/admin-rk/app/controllers/discounts_controller.rb",
+		"/C/Sites/admin-rk/app/views/data/new.html.erb",
+		"/C/Sites/admin-rk/app/views/data/_form.html.erb",
+		"/C/Sites/admin-rk/db/migrate/20190724095548_renamedata_column.rb",
+		"/C/Sites/admin-rk/app/views/commerce/product_detail.html.erb",
+		"/C/Sites/admin-rk/config/environment.rb",
+		"/C/Sites/admin-rk/config/boot.rb",
+		"/C/Sites/admin-rk/config/initializers/assets.rb",
+		"/C/Sites/admin-rk/app/controllers/commerce_controller.rb",
+		"/C/Sites/project1/config/database.yml",
+		"/C/Sites/admin-rk/Gemfile.lock",
+		"/C/Sites/project1/app/views/welcome/index.html.erb",
 		"/C/Sites/project1/app/views/images/show.html.erb",
+		"/C/Sites/project1/app/views/images/index.html.erb",
+		"/C/Sites/project1/app/views/images/edit.html.erb",
+		"/C/Sites/project1/app/views/images/new.html.erb",
+		"/C/Sites/project1/app/models/image.rb",
+		"/C/Sites/project1/app/models/country.rb",
+		"/C/Sites/project1/Gemfile",
+		"/C/Sites/project1/app/views/layouts/application.html.erb",
+		"/C/Sites/project1/app/controllers/images_controller.rb",
+		"/C/Sites/project1/app/views/devise/registrations/new.html.erb",
+		"/C/Sites/project1/config/routes.rb",
 		"/C/Sites/project1/app/views/states/show.html.erb",
 		"/C/Sites/project1/app/models/user.rb",
 		"/C/Sites/project1/app/models/user_region.rb",
@@ -234,11 +356,9 @@
 		"/C/Sites/project1/app/controllers/regions_controller.rb",
 		"/C/Sites/project1/app/views/regions/new.html.erb",
 		"/C/Sites/project1/app/views/companies/new.html.erb",
-		"/C/Sites/project1/app/views/devise/registrations/new.html.erb",
 		"/C/Sites/project1/db/migrate/20190719104832_add_names_to_users.rb",
 		"/C/Sites/project1/app/controllers/application_controller.rb",
 		"/C/Sites/project1/db/schema.rb",
-		"/C/Sites/project1/app/views/layouts/application.html.erb",
 		"/C/Sites/project1/app/views/devise/sessions/new.html.erb",
 		"/C/Sites/project1/db/migrate/20190716100014_create_places.rb",
 		"/C/Sites/project1/app/models/place.rb",
@@ -248,10 +368,8 @@
 		"/C/Sites/project1/db/migrate/20190715111748_create_cities.rb",
 		"/C/Sites/project1/db/migrate/20190719063609_create_nodes.rb",
 		"/C/Sites/project1/db/migrate/20190719072050_devise_create_users.rb",
-		"/C/Sites/project1/Gemfile",
 		"/C/Sites/project1/config/environments/development.rb",
 		"/C/Sites/project1/config/initializers/devise.rb",
-		"/C/Sites/project1/config/database.yml",
 		"/C/Sites/project1/db/migrate/20190719083405_add_column_to_user.rb",
 		"/C/Sites/project1/db/migrate/20190719072218_devise_create_users.rb",
 		"/C/Sites/blog2/config/routes.rb",
@@ -259,91 +377,15 @@
 		"/C/Sites/project1/app/views/nodes/edit.html.erb",
 		"/C/Sites/project1/app/views/places/show.html.erb",
 		"/C/Sites/project1/app/views/places/edit.html.erb",
-		"/C/Sites/project1/app/views/places/index.html.erb",
-		"/C/Sites/project1/app/controllers/places_controller.rb",
-		"/C/Sites/project1/app/views/nodes/new.html.erb",
-		"/C/Sites/project1/app/views/nodes/show.html.erb",
-		"/C/Sites/project1/app/views/places/new.html.erb",
-		"/C/Sites/project1/app/models/node.rb",
-		"/C/Sites/project1/app/views/nodes/index.html.erb",
-		"/C/Sites/project1/app/models/state.rb",
-		"/C/Sites/project1/app/models/country.rb",
-		"/C/Sites/project1/app/views/cities/new.html.erb",
-		"/C/Sites/project1/app/views/cities/show.html.erb",
-		"/C/Sites/project1/app/views/companies/show.html.erb",
-		"/C/Sites/project1/app/views/companies/edit.html.erb",
-		"/C/Sites/project1/app/models/city.rb",
-		"/C/Sites/project1/app/controllers/cities_controller.rb",
-		"/C/Sites/project1/app/views/cities/edit.html.erb",
-		"/C/Sites/project1/app/views/countries/edit.html.erb",
-		"/C/Sites/project1/app/views/cities/index.html.erb",
-		"/C/Sites/project1/app/controllers/companies_controller.rb",
-		"/C/Sites/project1/app/views/companies/index.html.erb",
-		"/C/Sites/project1/app/views/countries/index.html.erb",
-		"/C/Sites/project1/app/controllers/countries_controller.rb",
-		"/C/Sites/project1/app/views/countries/show.html.erb",
-		"/C/Sites/project1/app/views/states/edit.html.erb",
-		"/C/Sites/project1/app/controllers/states_controller.rb",
-		"/C/Sites/project1/app/views/states/index.html.erb",
-		"/C/Sites/project1/app/views/countries/new.html.erb",
-		"/C/Sites/project1/app/views/states/new.html.erb",
-		"/C/Sites/geeta/app/views/products/index.html.erb",
-		"/C/Sites/project1/db/migrate/20190712082225_create_countries.rb",
-		"/C/Sites/geeta/db/schema.rb",
-		"/C/Sites/geeta/app/assets/stylesheets/active_admin.scss",
-		"/C/Sites/geeta/Gemfile",
-		"/C/Sites/geeta/config/database.yml",
-		"/C/Sites/geeta/config/routes.rb",
-		"/C/Sites/geeta/app/admin/admin_users.rb",
-		"/C/Sites/geeta/app/assets/javascripts/active_admin.js",
-		"/C/Sites/blog2/db/schema.rb",
-		"/C/Sites/blog2/config/initializers/devise.rb",
-		"/C/Sites/blog2/config/environments/development.rb",
-		"/C/Sites/blog2/Gemfile",
-		"/C/Sites/blog2/db/migrate/20190710090159_devise_create_users.rb",
-		"/C/Sites/blog2/app/views/layouts/application.html.erb",
-		"/C/Sites/geeta/app/controllers/welcome_controller.rb",
-		"/C/Sites/blog2/app/controllers/welcome_controller.rb",
-		"/C/Sites/blog2/app/controllers/application_controller.rb",
-		"/C/Sites/blog2/app/views/welcome/index.html.erb",
-		"/C/Sites/geeta/app/views/products/new.html.erb",
-		"/C/Sites/geeta/app/views/products/edit.html.erb",
-		"/C/Sites/geeta/app/views/welcome/index.html.erb",
-		"/C/Sites/geeta/config/initializers/devise.rb",
-		"/C/Sites/geeta/app/views/layouts/application.html.erb",
-		"/C/Sites/geeta/app/views/articles/new.html.erb",
-		"/C/Sites/geeta/app/views/articles/show.html.erb",
-		"/C/Sites/geeta/app/controllers/articles_controller.rb",
-		"/C/Sites/geeta/app/controllers/products_controller.rb",
-		"/C/Sites/geeta/app/views/articles/index.html.erb",
-		"/C/Sites/geeta/config/environments/development.rb",
-		"/C/Sites/geeta/app/views/devise/confirmations/new.html.erb",
-		"/C/Sites/blog2/app/models/tagging.rb",
-		"/C/Sites/blog2/app/models/tag.rb",
-		"/C/Sites/blog2/db/development.sqlite3",
-		"/C/Sites/blog2/app/views/bloggers/edit.html.erb",
-		"/C/Sites/blog2/app/views/bloggers/index.html.erb",
-		"/C/Sites/blog2/app/controllers/bloggers_controller.rb",
-		"/C/Sites/blog2/app/views/bloggers/show.html.erb",
-		"/C/Sites/blog2/app/views/bloggers/new.html.erb",
-		"/C/Sites/blog2/app/views/comments/_form.html.erb",
-		"/C/Sites/blog2/app/models/blogger.rb",
-		"/C/Sites/blog2/app/controllers/comments_controller.rb",
-		"/C/Sites/blog2/app/helpers/blogger_helper.rb",
-		"/C/Sites/blog2/app/views/comments/_comment.html.erb",
-		"/C/Sites/blog2/app/models/comment.rb",
-		"/C/Sites/blog2/app/models/comments.rb",
-		"/C/Sites/blog2/app/views/comment/_comment.html.erb",
-		"/C/Sites/blog2/app/views/comment/_form.html.erb",
-		"/C/Sites/blog2/app/views/bloggers/_comment.html.erb"
+		"/C/Sites/project1/app/views/places/index.html.erb"
 	],
 	"find":
 	{
-		"height": 27.0
+		"height": 28.0
 	},
 	"find_in_files":
 	{
-		"height": 101.0,
+		"height": 283.0,
 		"where_history":
 		[
 			"C:\\Sites\\geeta",
@@ -353,9 +395,23 @@
 	},
 	"find_state":
 	{
-		"case_sensitive": false,
+		"case_sensitive": true,
 		"find_history":
 		[
+			"]) \t\t",
+			".\n",
+			"gee",
+			"add_id",
+			"tax_class",
+			"quantity",
+			"datum",
+			"discount",
+			"datum",
+			"group",
+			"%>\n",
+			"back",
+			"8",
+			"ruby",
 			"user_ide",
 			"region",
 			"Region",
@@ -407,203 +463,117 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/C/Sites/project1/app/controllers/images_controller.rb",
+					"file": "/C/Sites/movie_booking/Gemfile",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 674,
+						"buffer_size": 2206,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								569,
-								569
+								2205,
+								2205
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/Ruby/Ruby.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 188.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/C/Sites/project1/app/views/devise/registrations/new.html.erb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1838,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								923,
-								923
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/HTML (Rails).sublime-syntax",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 126.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/C/Sites/project1/app/views/user_roles/new.html.erb",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 197,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/HTML (Rails).sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 682.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
 					"type": "text"
 				},
 				{
+					"buffer": 1,
+					"file": "/C/Sites/movie_booking/config/database.yml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 360,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								246,
+								246
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/YAML/YAML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Sites/movie_booking/app/controllers/application_controller.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 60,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								60,
+								60
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
 					"buffer": 3,
-					"file": "/C/Sites/project1/app/views/images/new.html.erb",
+					"file": "/C/Sites/movie_booking/config/boot.rb",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 385,
+						"buffer_size": 208,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								103,
-								103
+								129,
+								129
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Rails/HTML (Rails).sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "/C/Sites/project1/app/views/images/edit.html.erb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 390,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								220,
-								220
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/HTML (Rails).sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "/C/Sites/project1/app/views/images/index.html.erb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 437,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								437,
-								437
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/HTML (Rails).sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "/C/Sites/project1/app/views/images/show.html.erb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 300,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								299,
-								299
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/HTML (Rails).sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -617,11 +587,11 @@
 	],
 	"incremental_find":
 	{
-		"height": 27.0
+		"height": 28.0
 	},
 	"input":
 	{
-		"height": 39.0
+		"height": 97.0
 	},
 	"layout":
 	{
@@ -646,6 +616,10 @@
 		]
 	},
 	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 132.0
+	},
 	"output.find_results":
 	{
 		"height": 0.0
@@ -654,7 +628,7 @@
 	"project": "welcome_controller.sublime-project",
 	"replace":
 	{
-		"height": 50.0
+		"height": 52.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -663,6 +637,18 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"",
+				"Gemfile.lock"
+			],
+			[
+				"addres",
+				"admin-rk\\app\\models\\address.rb"
+			],
+			[
+				"countr",
+				"project1\\app\\models\\country.rb"
+			]
 		],
 		"width": 0.0
 	},
@@ -692,7 +678,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 314.0,
+	"side_bar_width": 312.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
